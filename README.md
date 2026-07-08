@@ -36,7 +36,7 @@
   <a href="https://github.com/Animus-exe/V-Companion"><img src="https://img.shields.io/badge/Repo-V--Companion-24292f?style=for-the-badge&logo=github&logoColor=white" alt="V-Companion"></a>
 </p>
 
-<p align="center">By <strong>vurzum</strong></p>
+<p align="center">By <strong>vurzumm</strong></p>
 
 Browser extension for [x.com](https://x.com) (and legacy `twitter.com` domains) that disables the web age-assurance prompt by overriding a client-side feature flag. It also includes an optional selfie upload helper for account-level age verification.
 
@@ -146,4 +146,4 @@ Issues and pull requests are welcome. Keep changes small and focused. Do not com
 
 ## License
 
-MIT — Copyright (c) 2026 vurzum. See [LICENSE](LICENSE).
+MIT — Copyright (c) 2026 vurzumm. See [LICENSE](LICENSE).

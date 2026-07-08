@@ -4,7 +4,7 @@
   "short_name": "xbypass",
   "version": "1.3.0",
   "description": "Disables the age assurance flow on x.com. Click the icon for the alternative selfie upload helper.",
-  "author": "vurzum",
+  "author": "vurzumm",
   "homepage_url": "https://github.com/Animus-exe/xbypass",
   "minimum_chrome_version": "111",
   "permissions": ["scripting", "activeTab"],
@@ -46,7 +46,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "xbypass@vurzum",
+      "id": "xbypass@vurzumm",
       "strict_min_version": "128.0"
     }
   }
