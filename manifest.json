@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "X Bypass",
+  "short_name": "xbypass",
+  "version": "1.3.0",
+  "description": "Disables the age assurance flow on x.com. Click the icon for the alternative selfie upload helper.",
+  "author": "vurzum",
+  "homepage_url": "https://github.com/Animus-exe/xbypass",
+  "minimum_chrome_version": "111",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://*.x.com/*",
+    "https://twitter.com/*",
+    "https://*.twitter.com/*",
+    "https://upload.x.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://*.x.com/*",
+        "https://twitter.com/*",
+        "https://*.twitter.com/*"
+      ],
+      "js": ["hook.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "action": {
+    "default_title": "Start selfie age verification helper",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "xbypass@vurzum",
+      "strict_min_version": "128.0"
+    }
+  }
+}

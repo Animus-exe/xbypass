@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+# Packaged builds
+*.zip
+*.xpi
+*.crx
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local overrides (do not commit signing keys or personal IDs)
+manifest.local.json
