@@ -28,6 +28,7 @@
 </div>
 
 <p align="center">
+  <a href="https://github.com/Animus-exe/xbypass"><img src="https://img.shields.io/github/stars/Animus-exe/xbypass?style=for-the-badge&logo=github&logoColor=white&label=Leave%20a%20Star" alt="Leave a star"></a>
   <a href="https://x.com/Itsvurzum"><img src="https://img.shields.io/badge/X-@Itsvurzum-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter"></a>
   <a href="https://github.com/Animus-exe/C-Password-Generator"><img src="https://img.shields.io/badge/Repo-C--Password--Generator-24292f?style=for-the-badge&logo=github&logoColor=white" alt="C-Password-Generator"></a>
   <a href="https://github.com/Animus-exe/ORC-Rust-Torrent-Client"><img src="https://img.shields.io/badge/Repo-ORC--Rust--Torrent--Client-24292f?style=for-the-badge&logo=github&logoColor=white" alt="ORC-Rust-Torrent-Client"></a>
